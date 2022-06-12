@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <title>E-commerce</title>
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">DressUp</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#collection">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#shop">Pricing</a>
+          </li>
+        </ul>
+        <div class="container d-flex justify-content-end nav-icon">
+          <i class="bi bi-cart4 "></i>
+          <i class="bi bi-share px-3 "></i>
+          <i class="bi bi-person px-2"></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- cover -->
+  <header class=" container-cover ">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active carousel-cover ">
+          <img src="./images/cover2.jpg" class="d-block w-100 " alt="...">
+          <div class="carousel-caption text-body  cover-title  ">
+            <h2 class="text-center display-5 pb-1">Exclusively designed for you</h2>
+            <h1 class="text-center display-3 fw-bold pb-3">Almost everything </h1>
+            <span class="p-3  clearance">$15% OFF</span>
+          </div>
+        </div>
+        <div class="carousel-item carousel-cover">
+          <img src="./images/cover1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption cover-title  ">
+            <h2 class="text-center display-5 pb-1 ">Exclusively designed for you</h2>
+            <h1 class="text-center display-3 pb-3 fw-bold ">Almost everything </h1>
+            <span class="p-3  clearance">$15% OFF</span>
+          </div>
+        </div>
+        <div class="carousel-item carousel-cover">
+          <img src="./images/cover3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption cover-title  ">
+            <h2 class="text-center display-5  pb-1">Exclusively designed for you</h2>
+            <h1 class="text-center display-3 fw-bold pb-3 ">Almost everything </h1>
+            <span class="p-3  clearance">$15% OFF</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </header>
+
+  <!-- main content -->
+  <!-- best sellers section -->
+  <main>
+    <section class=" container-fluid pt-4" id="bestSeller">
+      <h1 class="text-center sale-title fw-bold p-4">BEST SELLERS</h1>
+      <div>
+        <div class="row ">
+          <div class="col text-center sale-item ">
+            <img src="./images/slide1.jpg" alt="">
+            <p class="pt-2 fw-bold ">Summer Dress <span>$31.99</span><i class="bi bi-cart4 px-2"></i> </p>
+          </div>
+          <div class="col text-center sale-item">
+            <img src="./images/slide2.jpg" alt="">
+            <p class="pt-2 fw-bold ">T-Shirt <span>$24.00</span> <i class="bi bi-cart4 px-2"></i></p>
+          </div>
+          <div class="col text-center sale-item">
+            <img src="./images/dress.jpg" alt="">
+            <p class="pt-2 fw-bold "> Summer Jumpsuit <span>$19.99</span> <i class="bi bi-cart4 px-2"></i></p>
+          </div>
+          <div class="col text-center sale-item">
+            <img src="./images/dress1.jpg" alt="">
+            <p class="pt-2 fw-bold "> Summer Jumpsuit <span>$19.99</span> <i class="bi bi-cart4 px-2"></i></p>
+          </div>
+        </div>
+      </div>
+      <div class=" text-center btn m-3 p-4 d-flex justify-content-center">
+        <button type="button" class="btn btn-outline-secondary ">View More</button>
+      </div>
+    </section>
+
+    <!-- collection section -->
+    <section id="collection">
+      <div class="row g-0 bg-light position-relative">
+        <div class="col-md-6 mb-md-0 p-md-4">
+          <img src="./images/collection.jpg" class="w-100" alt="...">
+        </div>
+        <div class="col-md-6 p-5 ps-md-0 collection ">
+          <h2 class="mt-0 pt-5 fw-bold">Collection 2022</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio maiores totam quaerat iusto? Provident,
+            expedita?</p>
+          <a href="#" class="stretched-link">Check it out</a>
+        </div>
+      </div>
+      <div class=" row g-0 bg-light ">
+        <div class="col-md-6 mb-md-0 p-md-4 collection-item text-left d-flex">
+          <img src="./images/collection2.jpg" alt="">
+          <span class="position-absolute p-2 ">NIGHT OUTFIT</span>
+        </div>
+        <div class="col-md-6 mb-md-0 p-md-4 collection-item text-right  d-flex">
+          <img src="./images/collection1.jpg" alt="">
+          <span class="position-absolute p-2">COSY OUTFIT </span>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- woman shop section  -->
+    <section id="shop">
+      <div id="woman-content">
+        <h2 class="text-center pt-5">CHOOSE BY CATEGORY</h2>
+        <div class="tab">
+          <button class="openBlinks " onclick="openTabs(event, 'forWoman')">For Woman</button>
+          <button class="openBlinks " onclick="openTabs(event, 'forMen')">For Men</button>
+        </div>
+
+        <div id="forWoman" class="tabContent ">
+
+          <h3>Dress</h3>
+          <div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel">
+            <div class="carousel-inner ">
+              <div class="carousel-item active row d-flex align-item-center">
+                <div class="col  clothes-style">
+                  <img src="./images/dress.jpg" alt="">
+                  <p class="position-absolute align-self-end ">Jeans Dress <span>$22.99 </span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col  clothes-style">
+                  <img src="./images/dress1.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">White Dress <span>$45.00</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col  clothes-style">
+                  <img src="./images/dress2.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">Green Dress <span>$80.50</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col clothes-style">
+                  <img src="./images/dress.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">Jeans Dress <span>$22.99</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col clothes-style">
+                  <img src="./images/dress2.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">Green Dress <span>$80.50</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+              </div>
+
+              <div class="carousel-item row d-flex justify-content-center">
+                <div class="col clothes-style">
+                  <img src="./images/dress1.jpg" alt="">
+                  <p class="position-absolute align-self-end ">White Dress <span>$45.00</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col clothes-style">
+                  <img src="./images/dress2.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">Green Dress <span>$80.50</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col clothes-style">
+                  <img src="./images/dress.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">Jeans Dress <span>$22.99</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col clothes-style">
+                  <img src="./images/dress2.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">Green Dress <span>$80.50</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col clothes-style">
+                  <img src="./images/dress1.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">White Dress <span>$45.00</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+              </div>
+
+              <div class="carousel-item row d-flex justify-content-center">
+                <div class="col clothes-style">
+                  <img src="./images/dress2.jpg" alt="">
+                  <p class="position-absolute align-self-end ">Green Dress <span>$80.50</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col clothes-style">
+                  <img src="./images/dress.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">Jeans Dress <span>$22.99</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col clothes-style">
+                  <img src="./images/dress1.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">White Dress <span>$45.00</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col clothes-style">
+                  <img src="./images/dress2.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">Green Dress <span>$80.50</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col clothes-style">
+                  <img src="./images/dress.jpg" class=" " alt=">
+                  <p class="position-absolute align-self-end ">Jeans Dress <span>$22.99</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev icon p2-5 " type="button" data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev">
+              <span class=" icon " aria-hidden="true"><i class="bi bi-chevron-left icon"></i></span>
+              <span class="visually-hidden ">Previous</span>
+            </button>
+            <button class="carousel-control-next p2-5 " type="button" data-bs-target="#carouselExampleFade"
+              data-bs-slide="next">
+              <span aria-hidden="true"><i class="bi bi-chevron-right icon"></i></span>
+              <span class="visually-hidden ">Next</span>
+            </button>
+          </div>
+
+          <h3>Blouses</h3>
+
+          <div class="row p-2">
+            <div class="col text-center clothes-style ">
+              <img src="./images/blouse.jpg" alt="">
+              <p class="priceTab">Summer Dress <span>$31.99</span> <i class="bi bi-cart4 px-2"></i></p>
+            </div>
+            <div class="col text-center clothes-style">
+              <img src="./images/blouse1.jpg" alt="">
+              <p class="priceTab">T-Shirt <span>$24.00</span> <i class="bi bi-cart4 px-2"></i></p>
+            </div>
+            <div class="col text-center clothes-style">
+              <img src="./images/blouse.jpg" alt="">
+              <p class="priceTab"> Summer Jumpsuit <span>$19.99</span> <i class="bi bi-cart4 px-2"></i></p>
+            </div>
+            <div class="col text-center clothes-style">
+              <img src="./images/blouse1.jpg" alt="">
+              <p class="priceTab"> Summer Jumpsuit <span>$19.99</span> <i class="bi bi-cart4 px-2"></i></p>
+            </div>
+          </div>
+
+          <h3>Jeans</h3>
+          <div class="row p-2">
+            <div class="col text-center clothes-style ">
+              <img src="./images/jeans.jpg" alt="">
+              <p class="priceTab">Summer Dress <span>$31.99</span> <i class="bi bi-cart4 px-2"></i></p>
+            </div>
+            <div class="col text-center clothes-style">
+              <img src="./images/jeans1.jpg" alt="">
+              <p class="priceTab">T-Shirt <span>$24.00</span> <i class="bi bi-cart4 px-2"></i></p>
+            </div>
+            <div class="col text-center clothes-style">
+              <img src="./images/jeans2.jpg" alt="">
+              <p class="priceTab"> Summer Jumpsuit <span>$19.99</span> <i class="bi bi-cart4 px-2"></i></p>
+            </div>
+            <div class="col text-center clothes-style">
+              <img src="./images/jeans1.jpg" alt="">
+              <p class="priceTab"> Summer Jumpsuit <span>$19.99</span><i class="bi bi-cart4 px-2"></i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- men shop section -->
+    <section>
+      <div id="men-content">
+        <div id="forMen" class="tabContent">
+          <h3>T-Shirt</h3>
+          <div id="carouselExampleFadeTwo" class="carousel slide carousel-fade " data-bs-ride="carousel">
+            <div class="carousel-inner ">
+
+              <div class="carousel-item active  d-flex justify-content-center">
+                <div class="col text-center clothes-style">
+                  <img src="./images/shirt1.jpg" alt="">
+                  <p class="position-absolute align-self-end ">Red T-shirt <span>$22.99</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col text-center clothes-style">
+                  <img src="./images/shirt.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">White T-shirt <span>$45.00</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col text-center clothes-style">
+                  <img src="./images/shirt1.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">Red T-shirt <span>$80.50</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col text-center clothes-style">
+                  <img src="./images/shirt.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">White T-shirt <span>$22.99</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col text-center clothes-style">
+                  <img src="./images/shirt1.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">Red T-shirt <span>$80.50</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+
+              </div>
+
+              <div class="carousel-item  d-flex justify-content-center">
+                <div class="col text-center clothes-style">
+                  <img src="./images/shirt.jpg" alt="">
+                  <p class="position-absolute align-self-end ">White T-shirt <span>$22.99</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col text-center clothes-style">
+                  <img src="./images/shirt1.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">Red T-shirt <span>$45.00</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col text-center clothes-style">
+                  <img src="./images/shirt.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">White T-shirt <span>$80.50</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col text-center clothes-style">
+                  <img src="./images/shirt1.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">Red T-shirt <span>$22.99</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col text-center clothes-style">
+                  <img src="./images/shirt.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">White T-shirt <span>$80.50</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+              </div>
+
+              <div class="carousel-item  d-flex justify-content-center">
+                <div class="col text-center clothes-style">
+                  <img src="./images/shirt1.jpg" alt="...">
+                  <p class="position-absolute align-self-end ">Red T-shirt <span>$22.99</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col text-center clothes-style">
+                  <img src="./images/shirt.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">White T-shirt <span>$45.00</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col text-center clothes-style">
+                  <img src="./images/shirt1.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">Red T-shirt <span>$80.50</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col text-center clothes-style">
+                  <img src="./images/shirt.jpg" class=" " alt="">
+                  <p class="position-absolute align-self-end ">White T-shirt <span>$22.99</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+                <div class="col text-center clothes-style">
+                  <img src="./images/shirt1.jpg " class=" " alt="">
+                  <p class="position-absolute align-self-end ">Red T-shirt <span>$80.50</span> <i
+                      class="bi bi-cart4 px-2"></i></p>
+                </div>
+              </div>
+            </div>
+
+            <button class="carousel-control-prev icon p2-5" type="button" data-bs-target="#carouselExampleFadeTwo"
+              data-bs-slide="prev">
+              <span class=" icon" aria-hidden="true"><i class="bi bi-chevron-left icon"></i></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next p2-5" type="button" data-bs-target="#carouselExampleFadeTwo"
+              data-bs-slide="next">
+              <span aria-hidden="true"><i class="bi bi-chevron-right icon"></i></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <h3>Pants</h3>
+
+          <div class="row p-2 d-flex align-item-center ">
+            <div class="col text-center clothes-style ">
+              <img src="./images/pants.jpg" alt="">
+              <p class="priceTab ">Brown Pants <span>$31.99</span> <i class="bi bi-cart4 px-2"></i></p>
+            </div>
+            <div class="col text-center clothes-style">
+              <img src="./images/pants1.jpg" alt="">
+              <p class="priceTab">Jeans Pants <span>$24.00</span> <i class="bi bi-cart4 px-2"></i></p>
+            </div>
+            <div class="col text-center clothes-style">
+              <img src="./images/pants2.jpg" alt="">
+              <p class="priceTab"> Jeans Pants <span>$24.00</span><i class="bi bi-cart4 px-2"></i></p>
+            </div>
+            <div class="col text-center clothes-style">
+              <img src="./images/pants3.jpg" alt="">
+              <p class="priceTab"> Gray Pants <span>$19.99</span><i class="bi bi-cart4 px-2"></i></p>
+            </div>
+          </div>
+
+          <h3>Blazer</h3>
+
+          <div class="row p-2">
+            <div class="col text-center clothes-style ">
+              <img src="./images/blazer.jpg" alt="">
+              <p class="priceTab">Blazer <span>$31.99</span> <i class="bi bi-cart4 px-2"></i></p>
+            </div>
+            <div class="col text-center clothes-style">
+              <img src="./images/blazer1.jpg" alt="">
+              <p class="priceTab">Blazer 1 <span>$24.00</span> <i class="bi bi-cart4 px-2"></i></p>
+            </div>
+            <div class="col text-center clothes-style">
+              <img src="./images/blazer2.jpg" alt="">
+              <p class="priceTab"> Blazer 2 <span>$19.99</span><i class="bi bi-cart4 px-2"></i></p>
+            </div>
+            <div class="col text-center clothes-style">
+              <img src="./images/blazer3.jpg" alt="">
+              <p class="priceTab"> Blazer 3 <span>$19.99</span><i class="bi bi-cart4 px-2"></i></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- shop -->
+    <section>
+      <div class="container-fluid">
+        <div class="row p-4 ">
+          <div class="col text-center sale-item ">
+            <img src="./images/jeans2.jpg" alt="">
+            <p class="pt-2"> Summer Jumpsuit <span>$31.99</span> <i class="bi bi-cart4 px-2"></i></p>
+          </div>
+          <div class="col text-center sale-item">
+            <img src="./images/dress.jpg" alt="">
+            <p class="pt-2"> Shirt <span>$19.99</span> <i class="bi bi-cart4 px-2"></i></p>
+          </div>
+          <div class="col text-center sale-item">
+            <img src="./images/shirt1.jpg" alt="">
+            <p class="pt-2"> T-shirt <span>$19.00</span> <i class="bi bi-cart4 px-2"></i></p>
+          </div>
+          <div class="col text-center sale-item">
+            <img src="./images/jeans.jpg" alt="">
+            <p class="pt-2"> Jeans Short <span>$31.99</span> <i class="bi bi-cart4 px-2"></i></p>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row p-4 ">
+            <div class="col text-center sale-item ">
+              <img src="./images/dress.jpg" alt="">
+              <p class="pt-2"> Summer Jumpsuit <span>$19.99</span> <i class="bi bi-cart4 px-2"></i></p>
+            </div>
+            <div class="col text-center sale-item">
+              <img src="./images/pants.jpg" alt="">
+              <p class="pt-2"> Shirt <span>$24.00</span> <i class="bi bi-cart4 px-2"></i></p>
+            </div>
+            <div class="col text-center sale-item">
+              <img src="./images/jeans.jpg" alt="">
+              <p class="pt-2"> Jeans short <span>$31.99</span> <i class="bi bi-cart4 px-2"></i></p>
+            </div>
+            <div class="col text-center sale-item">
+              <img src="./images/shirt.jpg" alt="">
+              <p class="pt-2"> T-shirt <span class="forSale">$19.00</span> <i class="bi bi-cart4 px-2"></i></p>
+            </div>
+          </div>
+    </section>
+
+    <!-- need to fix -->
+    <!-- clearance section -->
+    <section class="container-fluid p-5 ">
+      <div class="container clearance ">
+        <div class="text-center text-white p-5 ">
+          <h1 class="fw-bolder">DESIGNER CLEARANCE</h1>
+          <h2 class="fw-bolder">UP TO 15% OFF</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- sign up cover section -->
+    <section class="d-flex justify-content-center ">
+      <div class="sign-cover ">
+        <h2 class="text-center fw-bolder p-5">Sign up to receive update about new collection</h2>
+        <form class="w-100 text-center">
+          <label class="positon-relative fw-bold" for="email">Email</label>
+          <input class="p-2 m-2" type="email" name="email" placeholder="any@thing.com">
+          <button type="submit">Sign in</button>
+        </form>
+      </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-light" id="footer">
+      <div class="container ">
+        <div class="row d-flex justify-content-left">
+          <div class="col-6 col-sm-3 pt-5 ">
+            <h5 class="fw-bold footer-title ">Info</h5>
+            <ul class="info">
+              <li>About us</li>
+              <li>Our Blog </li>
+              <li>Our Stores</li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-3 pt-5"">
+        <h5 class=" fw-bold footer-title">Support</h5>
+            <ul class="info">
+              <li>Sizes</li>
+              <li>Shipping</li>
+              <li>Collection</li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-3 pt-5"">
+        <h5 class=" fw-bold footer-title " >Contact</h5>
+        <ul class=" info">
+            <li><i class="bi bi-telephone pe-2"></i>0000-0000</li>
+            <li><i class="bi bi-envelope pe-2"></i>anything@any.com </li>
+            <li> <i class="bi bi-geo-alt pe-2"></i>Location</li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
